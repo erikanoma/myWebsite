@@ -1,0 +1,79 @@
+/*nav bar: logo and links of navs(display table block) and changes color when mouse is over them*/
+.logo {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 60px;
+	white-space: nowrap;
+}
+
+.nav-container p {
+    font-family: 'Libre Baskerville', serif;
+    font-size-adjust: 30px;
+}
+
+.nav-container p:hover{
+	color: #ce4654;
+}
+
+/*social media icons*/
+i.fa{
+	font-size: 40px;
+	color: #ce4654;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+
+/*first picture*/
+p.top-picture img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+	/*width: 100vw;*/
+}
+
+.context{
+   	padding: 40px;
+}
+
+h2{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	text-decoration: underline overline;
+	margin: 20px;
+}
+/*quotes*/
+.quote{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 30px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 5px double #333333;
+}
+
+.texts{
+	font-family: 'Noto Serif', serif;
+	font-size: 15px;
+}
+
+.texts::first-letter {
+	font-size: 4em;
+    line-height: 1;
+    float: left;
+    margin: 0 .1em 0 0;
+    padding: .1em 0;
+    color: #ce4654;
+}
+
+/*education*/
+.waseda {
+	padding-right: 10px;
+}
+
+.carleton {
+	max-width: 40%;
+	height: auto;
+	float: right;
+	padding-left: 10px;
+}
